@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #f4f4f4;
+    font: 15px/1.6 Myriad Pro;
+    color: #404040;
+}
+
+a {
+    color: #817a79;
+    text-decoration: none;
+
+}
+.active, a:hover {
+    color: #090909;
+}
+
+#wrapper {
+    width: 1280px;
+    margin: auto;
+
+}
+
+#logo {
+    width: 131px;
+    height: 50px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 162px;
+
+
+}
+
+#menu {
+    float: right;
+    margin-top: 30px;
+    position: absolute;
+    margin-left: 340px;
+    padding-left: 100px;
+
+}
+
+#menu ul li {
+    list-style-type: none;
+    float: left;
+    margin-left: 80px;
+}
+
+#login {
+    width: 85px;
+    height: 25px;
+    background: #de6d6e;
+    border: none;
+    float: right;
+    position: relative;
+    margin-top: 30px;
+    margin-right: 169px;
+
+}
+
+#header {
+    opacity:0.9;
+    overflow: hidden;
+}
+
+
+.image {
+
+    width : 1280px;
+    height: 850px;
+    position: absolute;
+
+}
+
+#white-box {
+    width: 1280px;
+    height: 87px;
+    background: white;
+    opacity: 0.9;
+    position: absolute;
+}
+
+#text-image {
+    position: absolute;
+    font: 68px Myriad Pro;
+    color: white;
+
+}
+
+#footer {
+    height: 256px;
+    background: #e2e2e2;
+    position: fixed;
+    float: left;
+
+
+}
+#footer-content ul {
+    list-style-type: none;
+
+    padding: 0 7px;
+    line-height: 1;
+
+}
+
+#content {
+
+}
+
+.clear {
+    clear: both;
+}
